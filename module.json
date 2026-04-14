@@ -1,0 +1,35 @@
+{
+  "id": "companion-bridge-free",
+  "title": "Companion Bridge Free",
+  "description": "<p>A module that provides a bridge for communication between the Foundry VTT client and the mobile application Foundry Companion App (available for iOS and Android). It allows for the synchronization of actor data, item data, and other relevant information between the two platforms. This is the free version. The premium version of the module also includes additional features such as interaction and update from the app to Foundry (e.g. updating HP, using items, casting spells, etc.). More info can be found on our <a href=\"https://foundrycompanionapp.github.io/fca-wiki\">wiki</a> or our <a href=\"https://www.patreon.com/foundrycompanionapp\">Patreon</a>.</p>",
+  "authors": [
+    {
+      "name": "Netfir",
+      "email": "foundrycompanionapp@gmail.com",
+      "url": "https://www.patreon.com/foundrycompanionapp",
+      "discord": "riften_",
+      "flags": {}
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "scripts/bridge-mini.js"
+  ],
+  "socket": true,
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "url": "https://foundrycompanionapp.github.io/fca-wiki/",
+  "flags": {}
+}
